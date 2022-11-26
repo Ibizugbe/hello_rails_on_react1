@@ -1,7 +1,4 @@
 {
-  "name": "app",
-  "private": "true",
-  "scripts": {
-    "build": "webpack --config webpack.config.js"
-  }
+  "name": "hello_rails_on_react",
+  "packageManager": "yarn@3.2.4"
 }
