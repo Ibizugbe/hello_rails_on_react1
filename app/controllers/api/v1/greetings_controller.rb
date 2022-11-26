@@ -1,5 +1,11 @@
-class Api::V1::GreetingsController < ApiController
-    def index
-      @greeting = Greeting.order(Arel.sql('RANDOM()')).first
+# frozen_string_literal: true
+
+module Api
+  module V1
+    class GreetingsController < ApiController
+      def index
+        @greeting = Greeting.order(Arel.sql('RANDOM()')).first
+      end
     end
+  end
 end
