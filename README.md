@@ -1,98 +1,119 @@
-# Hello Rails From React
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
-This is a simple web app to test working with rails and react
+### Key Features <a name="key-features"></a>
 
-## Built With
+- **It generates random greetings on the page**
 
-### Languages
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- No live demo yet
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
 
 - Ruby
-- React
-- Redux
-- Webpack
-- Postgresql
+- Rails
+- Node
+- npm or yarn
 
-### Frameworks
+### Setup
 
-- Ruby On Rails
+Clone this repository to your desired folder:
 
-### Technologies used
-
-- Visual Studio Code
-
-## Requirements
-
-In order to work on this project, you need to have the following dependencies installed:
-
-- [Ruby](https://www.ruby-lang.org/en/)
-- [Postgresql](https://www.postgresql.org/)
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/)
-- [Rails](https://rubyonrails.org/)
-
-## Getting Started
-
-### Clone this repository
-
-```bash
-$ git clone git@github.com:ibizugbe/hello_rails_on_react.git
-$ cd hello_rails_on_react
+```sh
+  git clone git@github.com:ibizugbe/hello_rails_on_react.git
 ```
 
-### Commands to run
+### Install
 
-Run
+Install this project with:
 
-```bash
-$ bundle install
+```sh
+  cd hello_rails_on_react
+  bundle install
+  npm install
 ```
 
-To get all the gems required for the project
+### Usage
 
-Then, run
+To run the project, execute the following command:
 
-```bash
-$ npm install
+```sh
+  ./bin/dev
 ```
 
-To install packages such as style linters
+### Run tests
 
-To check linters locally, use
+To run tests, run the following command:
 
-```bash
-$ rubocop
-$ npx stylelint "**/*.{css,scss}"
+```sh
+  rspec
 ```
 
-Once you have the project correctly set up, run
+### Deployment
 
-```bash
-$ bin/rails db:setup
+You can deploy this project using:
+
+```sh
+  git push heroku main
 ```
 
-To run all migrations, create the database for testing and for development, and insert some data into the database for you to visualize the changes
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+## 👥 Author <a name="authors"></a>
 
-👤 **Ibizugbe Abraham**
+👤 **Abraham Ibizugbe**
 
 - GitHub: [@ibizugbe](https://github.com/ibizugbe)
-- Twitter: [@abrahamibizugbe](https://twitter.com/abrahamibizugbe)
-- LinkedIn: [@Abraham Ibizugbe](https://www.linkedin.com/in/abrahamibizugbe/)
 
-## 🤝 Contributing
+- Twitter: [@abrahamibizugbe](https://twitter.com/abrahamibizugbe)
+
+- LinkedIn: [Abraham Ibizugbe](https://www.linkedin.com/in/abrahamibizugbe)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **This is just a test app and may not continue future features**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project you can give me a star.
 
-- Microverse
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 📝 License
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-This project is [MIT](./LICENSE) licensed.
+I would like to thank the Microverse curriculum. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
